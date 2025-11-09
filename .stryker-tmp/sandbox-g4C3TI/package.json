@@ -1,0 +1,23 @@
+{
+  "name": "planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "analytics.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "test:mutation": "stryker run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@stryker-mutator/core": "^9.3.0",
+    "@stryker-mutator/javascript-mutator": "^4.0.0",
+    "@stryker-mutator/jest-runner": "^9.3.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "jest-localstorage-mock": "^2.4.26"
+  }
+}
